@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #e6eff3;
+   
+}
+nav{
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    box-shadow: #ccc 0px 0px 10px;
+}
+.first-section p{
+    color: #362bcc;
+    font-weight: bold;  
+}
+
+.first-section .ACME{
+    color:white;
+    background-color:#362bcc;
+    padding:5px;
+    border-radius: 5px;
+    font-weight: semibold;
+}
+
+.middle-section input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.middle-section i {
+    padding: 10px;
+    color: rgb(178, 184, 178);
+    min-width: 50px;
+    margin-left: 80px;
+    text-align: right;
+    position: absolute;
+}
+
+.left-p{
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+.left-section ul{
+    display: flex;
+    list-style: none;
+    margin-left: 80px;
+}
+.left-section .fa{
+    color: #b5b0b0;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.left-section img{
+    height: 20px;
+    width: 20px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+.sidebar{
+    background-color: #362bcc;
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    top: 65px;
+    left: 0;
+}
+
+.sidebar span p{
+    color: white;
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.sidebar i{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.sidebar span {
+    background-color: #362bcc;
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    margin-bottom: 0;
+}
+.sidebar .unique{
+    background-color:#8CBED6 ;
+    padding: 20px;
+    bottom: 10px;
+}
+.content{
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 10px;
+    margin-left: 100px;
+    margin-top: 9px;
+    background-color: #8CBED6;
+    height: 100vh;
+    width: 100px;
+    position: fixed;
+    overflow:auto;
+}
+.EmpoloyeeTables{
+    padding-top: 5%;
+    padding-left: 30%;
+    margin-top: 10px;
+    width: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.EmpoloyeeTables div{
+    background-color: white;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 4px;
+    box-shadow: #ccc 0px 0px 10px;
+    width: 200px;
+}
+.EmpoloyeeTables img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+div ul ul{
+    display: none;
+}
+div ul li:hover  ul{
+    display: block;
+}
+.no{
+    background-color:#8CBED6;
+}
+div ul {
+
+    padding: 10px;
+    width: 120px;
+    border-radius: 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+
+div ul:after {
+    content: ""; clear: both; display: block;
+}
+
+div ul li:hover {
+    background: #4b545f;
+   
+}
+
+div ul li:hover a {
+    color: #fff;
+}
+
+div ul li a {
+    display: block; 
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+
+}

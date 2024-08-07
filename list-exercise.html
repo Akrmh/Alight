@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>list Exercises</title>
+</head>
+<body>
+    <style>
+       
+        ul{
+            list-style-type:none;
+        }
+        ul li::before{
+        padding: 15px;  
+        display: inline;
+        }
+        .Partime li {
+        color: blue;
+        }
+       
+        
+        li:hover{
+            background-color: rgb(0, 255, 64);
+            width: 50%;
+        } 
+        .left{
+        background-image: url("logo_1742071467.png");
+		width:15%;
+		height: 400px;
+		float: left;
+		overflow: auto;
+        font-size: large;
+        }
+        .right{
+            background-color: #edf8ed;
+            width:85%;
+            height:100%;
+            overflow:visiblel;
+            float:right;
+        }
+        nav{
+            background-color: aqua;
+            color:red;
+            padding:1%;
+            margin:1%;
+            text-align:center;
+            font-size: large;  
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form label {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .contact-form label img {
+            margin-right: 10px;
+            width: 20px; 
+            height: 20px;
+        }
+     </style>
+        <nav>
+            <p>Lists Exercies</p>
+        </nav>
+        <aside class = "left"> 
+            <h1>Navigation</h1> 
+                <ul>
+                    <li><a href="https://www.facebook.com">Facebook</a></li>
+                    <li><a href="https://www.google.com">Google</a></li>
+                    <li><a href="https://www.bing.com/">bing</a></li>
+                    <li><a href="https://www.facebook.com">Facebook</a></li>
+                    <li><a href="https://www.google.com">Google</a></li>
+                    <li><a href="https://www.bing.com/">bing</a></li>
+                </ul>
+        </aside>
+        <section class = "right">
+            <h1 > To DO List:</h1> 
+                <ul class="Partime">
+                        <li><a href="https://www.facebook.com">Facebook</a></li>
+                        <li><a href="https://www.google.com">Google</a></li>
+                        <li><a href="https://www.bing.com/">bing</a></li>
+                        <li><a href="https://www.facebook.com">Facebook</a></li>
+                        <li><a href="https://www.google.com">Google</a></li>
+                        <li><a href="https://www.bing.com/">bing</a></li>
+                </ul>
+            <h1>Product Features List:</h1> 
+            <ul>
+                    <li><a href="https://www.facebook.com">Facebook</a></li>
+                    <li><a href="https://www.google.com">Google</a></li>
+                    <li><a href="https://www.bing.com/">bing</a></li>
+                    <li><a href="https://www.facebook.com">Facebook</a></li>
+                    <li><a href="https://www.google.com">Google</a></li>
+                    <li><a href="https://www.bing.com/">bing</a></li>
+            </ul>
+            <h1>Course Outline</h1>
+            <ol>
+                <h2>Modules</h2>
+                <ol>
+                    <li>List Tybe</li>
+                    <li>Styling List</li>
+                </ol>
+                <h2>Lessons</h2>
+                <ol>
+                    <li>Unorder List</li>
+                    <li>Orderlist</li>
+                    <li>Nested List</li>
+                </ol>                 
+            </ol>
+            <h2>Contact Information:</h2>
+            <form class="contact-form">
+                <label>
+                    <img src="phone-icon.png" alt="Phone icon"> Phone: <input type="text" name="phone">
+                </label>
+                <label>
+                    <img src="email-icon.png" alt="Email icon"> Email: <input type="email" name="email">
+                </label>
+                <label>
+                    <img src="address-icon.png" alt="Address icon"> Address: <input type="text" name="address">
+                </label>
+            </form>
+         </section>
+            
+</body>
+</html>

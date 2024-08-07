@@ -1,0 +1,45 @@
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin: 5%;
+    padding: 0;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td,th{
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 20;
+}
+td:nth-child(7){
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    padding-top: 20px;
+    color: rgb(212, 196, 196);
+    }
+
+
+
+td img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.fulltime{
+    background-color: blueviolet;
+    border: 1px;
+    border-radius: 5px;
+}
+.Partime{
+    background-color: rgb(162, 226, 43);
+    border: 1px;
+    border-radius: 5px;
+}
+.Temporary{
+    background-color: rgb(111, 106, 151);
+    border: 1px;
+    border-radius: 5px;
+}

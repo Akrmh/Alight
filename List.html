@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Tybes</title>
+</head>
+<style>
+    ol{
+        list-style: lower-roman;   
+    }
+    ul{
+        list-style-type: none;   
+    }
+    ul li::before{
+    content: "✔";  
+    padding: 15px;  
+    }
+    ol{
+        list-style-type: none;
+     }
+
+    ol li::before{
+        content: "✔";
+        padding: 15px;
+     }
+    
+    li:hover{
+        background-color: aqua;
+    }
+    </style>
+    
+<body>
+    <h1>Order List</h1>
+        <ol>
+        <li>Rwanda</li>
+        <li>Burundi</li>
+        <li>Sudan</li>
+        <li>Kenya</li>
+        <li>DRC</li>
+        </ol>
+    <h1>UnOrder List</h1>
+        <ul>
+            <li>Mahama</li>
+            <li>Kigeme</li>
+            <li>Nyabibeke</li>
+        </ul>
+    <h1>Description LIst</h1>
+        <dl>
+            <dt>photosysnthesis</dt>
+            <dd>process by which plants make food form sunlight</dd>
+            <dt>osmoss</dt>
+            <dd>Movement of particles form a region of high </dd>
+        </dl>
+    <h1>Nested List</h1>
+        <ol>
+            <h1>carbohydrates</h1>
+            <ol>
+                <li>rice</li>
+                <li>Potatos</li>
+            </ol>
+            <h1>Protein</h1>
+                <ol>
+                    <li>Meat</li>
+                    <li>Beans</li>
+                </ol>
+           <h1>Ripids</h1>
+                <ol>
+                    <li>vegetables</li>
+                    <li>Fruites</li>
+                </ol>
+        </ol>
+    </ul>
+</body>
+</html>

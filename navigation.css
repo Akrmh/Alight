@@ -1,0 +1,229 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #e6eff3;
+    
+}
+nav{
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    box-shadow: #ccc 0px 0px 10px;
+}
+.first-section p{
+    color: #362bcc;
+    font-weight: bold;  
+}
+
+.first-section .ACME{
+    color:white;
+    background-color:#362bcc;
+    padding:5px;
+    border-radius: 5px;
+    font-weight: semibold;
+}
+
+.middle-section input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.middle-section i {
+    padding: 10px;
+    color: rgb(178, 184, 178);
+    min-width: 50px;
+    margin-left: 80px;
+    text-align: right;
+    position: absolute;
+}
+
+.left-p{
+    font-weight: 300;
+    margin-left: 40px;
+}
+
+.left-section ul{
+    display: flex;
+    list-style: none;
+    margin-left: 80px;
+}
+.left-section .fa{
+    color: #b5b0b0;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.left-section img{
+    height: 20px;
+    width: 20px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+.sidebar{
+    background-color: #362bcc;
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    top: 65px;
+    left: 0;
+}
+
+.sidebar span p{
+    color: white;
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.sidebar i{
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.sidebar span {
+    background-color: #362bcc;
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    margin-bottom: 0;
+}
+.sidebar .unique{
+    background-color:#8CBED6 ;
+    padding: 20px;
+    bottom: 10px;
+}
+.content{
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-left: 10px;
+    margin-left: 100px;
+    margin-top: 9px;
+    background-color: #8CBED6;
+    height: 100vh;
+    width: 100px;
+    position: fixed;
+}
+
+.content ul {
+    padding-top: 10px;
+    list-style-type: none;
+    padding-left: 0px;
+    color:#362bcc ;
+
+   }
+   .content li{
+    padding: 10px;
+    margin: 2px;
+   }
+   .content ul .dashboard{
+    color: white;
+    background-color: #362bcc;
+    width: 160px;
+    height: 15px;
+    text-align: left;
+    border-radius: 5px;
+   }
+   
+.active{
+    padding-left: 28%;
+    padding-top: 5%;
+    padding-right: 2%;
+}
+.Quick{
+    padding: 20px;
+    font-size: large;
+    background-color: white;
+    height: 250px;
+    border: #b5b0b0 solid;
+    margin: 10px;
+    border-radius: 10px;
+}
+.Quick .linkdin a{
+    margin-left: 100px;
+}
+.Quick .airswft a{
+    margin-left: 100px;
+}
+.Quick .google a{
+    margin-left: 100px;
+}
+.Quick .slack a{
+    margin-left: 100px;
+}
+.li{
+    margin-left: 410px;
+}
+.ai{
+    margin-left: 200px;
+}
+.go{
+    margin-left: 415px;
+}
+.sl{
+    margin-left: 460px;
+}
+.Quick .linkdin{
+    margin: 10px;
+}
+.Quick .airswft{
+    margin: 10px;
+}
+.Quick .google{
+    margin: 10px;
+}
+.Quick .slack{
+    margin: 10px;
+}
+#fg{
+    margin-left: 720px;
+    
+}
+.Quick p{
+    display:inline;
+}
+.Quick .ee{
+    margin-top:  20px;
+}
+.Quick .ee :hover{
+background-color: #8CBED6;
+}
+.Quick .ee .linkdin .li :hover{
+    background-color: rgb(8, 172, 16);
+    border-radius: 10px;
+    
+}
+.Quick .ee .airswft .ai :hover{
+    background-color: rgb(8, 172, 16);
+    border-radius: 10px;
+    
+}
+.Quick .ee .google .go :hover{
+    background-color: rgb(8, 172, 16);
+    border-radius: 10px;
+    
+}
+.Quick .ee .slack .sl :hover{
+    background-color: rgb(8, 172, 16);
+    border-radius: 10px;
+    
+}
+#a{
+    padding-left: 82px;
+}
+#b{
+    padding-left: 85px;
+    }
+#c{
+    padding-left: 40px;
+        }
+#d{
+    padding-left: 100px;
+            }
